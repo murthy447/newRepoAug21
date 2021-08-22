@@ -1,0 +1,130 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-01T03:34:57.669Z",
+        "line": 3,
+        "name": "Validate homepage with positive data",
+        "description": "",
+        "id": "to-validate-new-homepage-of-ntl-taxi;validate-homepage-with-positive-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3905000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open browser",
+            "match": {
+              "location": "stepDefinations.HomePageTest.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter URL",
+            "match": {
+              "location": "stepDefinations.HomePageTest.enterUrl()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter UserName",
+            "match": {
+              "location": "stepDefinations.HomePageTest.enterUserName()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter MobNumber",
+            "match": {
+              "location": "stepDefinations.HomePageTest.mobNumber()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter PickupAddress",
+            "match": {
+              "location": "stepDefinations.HomePageTest.pickupAddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter DropAddress",
+            "match": {
+              "location": "stepDefinations.HomePageTest.dropAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Select VehicleType",
+            "match": {
+              "location": "stepDefinations.HomePageTest.vehicleType()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Dont Click Book Button",
+            "match": {
+              "location": "stepDefinations.HomePageTest.bookButton()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Homepage"
+          }
+        ]
+      }
+    ],
+    "name": "To validate new homepage of NTL Taxi",
+    "description": "",
+    "id": "to-validate-new-homepage-of-ntl-taxi",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/test.feature",
+    "tags": [
+      {
+        "name": "@Homepage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
