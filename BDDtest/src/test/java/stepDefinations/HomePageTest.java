@@ -25,6 +25,7 @@ public class HomePageTest {
 	@Then ("^Enter URL$")
 	public void enterUrl(){
 		System.err.println("enterUrl completed");
+		System.out.println("test git");
 	}
 	@And ("^Enter UserName$")
 	public void enterUserName(){
